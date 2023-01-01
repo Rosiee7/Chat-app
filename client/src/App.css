@@ -1,0 +1,93 @@
+body{
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;;
+    margin-top: 30px;
+}
+
+.page-title ,.ChatHeader {
+  font-size: 40px;
+  font-weight: lighter;
+  color: rgb(82, 80, 80);
+  text-align:center;
+  font-weight: 5;
+
+}
+
+.info ,.ChatFooter{
+  width: 320px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+
+p{
+    font-size: 15px;
+    margin: 4px;
+}
+
+input{
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    background: white;
+    border: solid 1px #d6d6d6;
+    border-radius: 5px;
+    outline: 0;
+    width: 69%;
+   
+}
+
+
+button{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background: #f6418a;
+    font-size: 10px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+
+
+.Chat-Body{
+  height: 350px;
+  width: 400px;
+  background-color: rgb(237, 237, 234);
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.msgContainer {
+  overflow-wrap: break-word;
+  border-radius: 25px;
+  background: #f6418a;
+  border: 1px solid #ffffff;
+  width: 70%;
+  border-radius: 25px;
+  font-size: 10px;
+  color: #ffffff;
+  padding: 0 20px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.msgContainer.my{
+  background: #c177ae;
+}
+
+.msgContainer.other{
+  background: #d46392;
+}
+
+.msgTime{
+    font-size: 8.5px;
+    float:right;
+}
