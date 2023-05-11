@@ -1,7 +1,6 @@
 # chat-app
 Real time chat application.
 The program uses the WebSocket protocol to enable the immediate exchange of messages for asynchronous communication.
-![image](https://github.com/Rosiee7/chat-app/assets/88431787/af2e75a9-63dd-4775-b747-c3f109b72ed9)
 
 Installation and operation instructions:
 Make sure port 3000 is available on your device.
